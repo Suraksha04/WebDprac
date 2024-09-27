@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #f9c6ef;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 54px;
+    font-size: 1.2rem;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.highlights {
+    text-align: center;
+    margin: 20px;
+}
+
+.highlight-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.highlight-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-items{
+    text-align: center;
+    margin: 20px;
+}
+.menu-item{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+.menu-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.service-items{
+    text-align: center;
+    margin: 20px;
+}
+.service-item{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+.service-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    padding-top: 34px;
+    border: 2px solid black;
+    height: 240px;
+    width: 350px;
+    margin-left:400px;
+
+}
